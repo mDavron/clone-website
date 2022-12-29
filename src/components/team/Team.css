@@ -1,0 +1,58 @@
+.team-slider_wrapper {
+  height: 100vh;
+  background-color: rgb(182, 211, 182);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.team-slider_inner {
+  /* background: #000; */
+  position: relative;
+  /* height: 8vh; */
+}
+.team_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  height: 27vw;
+  width: 13vw;
+  transition: all 0.3s ease;
+}
+.team_card:hover {
+  transform: rotate(2deg) scale(0.95);
+}
+.team_card img {
+  width: 100%;
+  height: 17vw;
+  object-fit: cover;
+  border-radius: 2.12vw;
+}
+/* CARD ENDS */
+.team-slider_inner .slick-slider .slick-track {
+  position: relative;
+  top: 5vw;
+}
+
+.team-slider_inner .slick-slider .slick-list {
+  width: 70vw;
+  margin: 0 auto;
+  height: 30vw;
+}
+.team-slider_inner .slider {
+  position: relative;
+}
+.team-slider_inner .slick-arrow {
+  position: absolute;
+  top: 30vw !important;
+}
+.team-slider_inner .slick-dots {
+  position: absolute;
+  top: 28.5vw !important;
+}
+.team-slider_inner .slick-next {
+  right: 10px !important;
+}
+.team-slider_inner .slick-prev {
+  left: 10px !important;
+}

@@ -1,0 +1,26 @@
+.courses-cards {
+  display: flex;
+  height: 100vh;
+  margin: 6vw auto;
+  justify-content: center;
+  align-items: center;
+  width: 60vw;
+}
+
+ /* display: grid;
+    height: auto;
+    margin-bottom: 20vw;
+    margin-top: 36vw;
+    place-items: end;
+    width: 80vw; */
+
+.cards_inner {
+  display: grid;
+  grid-gap: 3.2vw;
+  grid-template-columns: repeat(3,1fr);
+}
+@media (max-width:991px) {
+  .cards{
+      height: 60vw;
+  }
+}

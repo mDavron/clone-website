@@ -1,0 +1,55 @@
+.carousel_card {
+  display: inline-block;
+  width: 16vw;
+  height: 22vw;
+  background-color: #fff;
+  border-radius: 2vw;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  overflow: hidden;
+}
+.carousel_card:hover {
+  height: 28vw;
+}
+
+.carousel_card .card_img {
+  width: 100%;
+  height: 17vw;
+  border-radius: 2vw;
+  object-fit: cover;
+}
+.card-user_info {
+  margin-left: 1rem;
+  margin-top: 0.5rem;
+}
+.carousel_card .card-user_info h3 {
+  font-weight: 600;
+  font-size: 1.3vw;
+  line-height: 18px;
+  color: #22407c;
+  margin-bottom: 5px;
+}
+.carousel_card .card-user_info h4 {
+  font-weight: 600;
+  font-size: 1.2vw;
+  color: #22407c;
+}
+/* USER STATUS */
+.carousel_card .user_status {
+  margin-top: 1.2vw;
+  margin-left: 1rem;
+  display: flex;
+  align-items: center;
+}
+.carousel_card .user_status img {
+  height: 1.4vw;
+  width: 1.4vw;
+  margin-right: 5px;
+}
+.carousel_card .user_status span {
+  font-weight: 400;
+  font-size: 1vw;
+  line-height: 23px;
+  color: #5f9155;
+}
+/* BUTTON NEXT */

@@ -1,0 +1,131 @@
+/* .home-inner{
+display: flex;
+flex-direction: column;
+
+} */
+.home {
+  position: relative;
+  top: 6vw;
+}
+.home-inner_row {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  grid-gap: 4vw;
+  width: 100%;
+}
+/* ==== LEFT SECTION ==== */
+.left_text {
+  display: flex;
+  align-items:start;
+  flex-direction: column;
+  justify-content: center;
+}
+.left_text h1 {
+  color: #214690;
+  font-size: 2.91vw;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.83vw;
+  margin-bottom: 0.5vw;
+}
+.left_text h1 > p {
+  color: #457abd;
+  font-size: 2.91vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 3.3vw;
+  margin-bottom: 2vw;
+}
+.left_text-info {
+  color: rgba(34, 64, 124, 0.8);
+  font-size: 1.09vw;
+  font-style: normal;
+  line-height: 1.61vw;
+  font-weight: 400;
+}
+.left_text-info span {
+  color: rgba(34, 64, 124, 0.8);
+  font-size: 1.09vw;
+  font-style: normal;
+  line-height: 1.61vw;
+  font-weight: 600;
+}
+.left_text-btn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.93vw;
+  line-height: 0.93vw;
+  color: #ffffff;
+  background: linear-gradient(92.42deg, #214691 3.72%, #498add 92.65%);
+  border-radius: 0.5vw;
+  border: none;
+  padding: 1vw 1.5vw;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 2vw;
+  transition: all 0.3s ease;
+}
+.left_text-btn:hover{
+    background: linear-gradient(92.42deg,#071635 3.72%,#20406a 92.65%);
+}
+.left_text-btn img {
+  height: 1vw;
+  margin-left: 0.5vw;
+  width: 2vw;
+}
+
+/* .header__button svg {
+    margin-left: 0.5vw;
+    width: 2vw;
+    height: 1vw;
+} */
+
+/* ==== RIGHT SECTION ==== */
+.right_imgBox {
+  display: flex;
+  height: auto;
+  width: 36vw;
+}
+.right_imgBox img {
+  width: 100%;
+  object-fit: cover;
+}
+/* HOME INNER */
+ .home-inner_descr {
+  background: hsla(0,0%,100%,.25);
+  border-radius: 2.28vw;
+  box-shadow: 0 19px 82px #d1e6ff;
+  padding: 3.8vw;
+}
+/* HOME DESCRIPTION */
+.home-inner_descr  {
+  grid-gap: 4vw;
+    align-items: center;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+}
+.home-inner_descr .item{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+.home-inner_descr .item span{
+  color: #05061b;
+  font-size: 1.04vw;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.24vw;
+}
+.home-inner_descr .icon-box  img {
+  height: 2.5vw;
+  width: 2.5vw;
+}
+.home-inner_descr .icon-box{
+  background: #e8f0ff;
+  border-radius: 1.6vw;
+  display: flex;
+  margin-right: 1.6vw;
+  padding: 1vw;
+}
